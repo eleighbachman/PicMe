@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  border-top: 20px solid #1A8577;
+  background: #1e9a8a; /* Old browsers */
+  background: -webkit-linear-gradient(#1e9a8a 0%, #7ee8cf 100%);
+  background: -o-linear-gradient(#1e9a8a 0%, #7ee8cf 100%);
+  background: linear-gradient(#1e9a8a 0%, #7ee8cf 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e9a8a', endColorstr='#7ee8cf',GradientType=0 );
+  border-bottom: 20px solid #1A8577;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  font-size: 5em;
+  padding-top: 50px;
+  color: #eee;
+}
+
+h2 {
+  font-size: 1em;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.poweredBy {
+  font-size: 0.7em;
+  margin-top: -30px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.searchBtn:hover {
+  cursor: pointer;
+}
+
+.searchField {
+  width: 60%;
+  margin: auto;
+}
+
+.searchOptions {
+  padding-top: 5px;
+}
+
+.searchOptions button {
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.advisory {
+  font-size: .8em;
+  font-style: italic;
+  color: #bbb;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.imgField {
+  min-height: 450px;
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  border: 2px solid #ccc;
+}
+
+.imgList {
+  width: 95%;
+  margin: auto;
+  margin-top: 15px;
+
+}
+
+.imgItem {
+  height: 150px;
+  margin-bottom: 40px;
+}
+
+.flickrImg {
+  height: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.flickrImg:hover {
+  cursor:pointer;
+}
